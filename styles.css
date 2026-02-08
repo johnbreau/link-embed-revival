@@ -1,0 +1,60 @@
+.link-card {
+  display: flex;
+  gap: 12px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  padding: 12px;
+  text-decoration: none;
+  background: var(--background-primary);
+}
+
+.link-card:hover {
+  background: var(--background-secondary);
+}
+
+.link-card__meta {
+  flex: 1;
+  min-width: 0;
+}
+
+.link-card__title {
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: var(--text-normal);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.link-card__desc {
+  color: var(--text-muted);
+  font-size: 0.9em;
+  margin-bottom: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.link-card__site {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-faint);
+  font-size: 0.85em;
+}
+
+.link-card__favicon {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+}
+
+.link-card__image {
+  width: 140px;
+  height: 90px;
+  border-radius: 8px;
+  object-fit: cover;
+  flex: 0 0 auto;
+  border: 1px solid var(--background-modifier-border);
+}

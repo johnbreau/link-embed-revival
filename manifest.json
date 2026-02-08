@@ -1,0 +1,10 @@
+{
+  "id": "link-card-revival",
+  "name": "Link Card Revival",
+  "version": "0.1.0",
+  "minAppVersion": "1.0.0",
+  "description": "Notion-style link preview cards with direct OG scraping + provider fallbacks (Iframely, LinkPreview, JsonLink).",
+  "author": "You",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "autoOnPaste": true,
+  "stripUtmParams": true,
+  "providerOrder": [
+    "direct",
+    "iframely",
+    "linkpreview",
+    "jsonlink"
+  ],
+  "timeoutMs": 12000,
+  "userAgent": "Mozilla/5.0 (Obsidian LinkCardRevival)",
+  "iframelyApiKey": "74137ddb7f544d7c51cf9b25c2100e19",
+  "linkPreviewApiKey": "0ce6ec71-7b21-4fda-9baf-ba1e7edcc3dd",
+  "jsonLinkApiKey": "pk_59d5418acb916fa0893121ee83b2c3e093ca7557",
+  "cacheTtlHours": 168,
+  "cache": {
+    "https://www.mermaid.ai/landing?gad_source=1&gad_campaignid=21291684933&gbraid=0AAAAAqtlhyygZk0tub9XTAFteyEFfGR9M": {
+      "meta": {
+        "url": "https://www.mermaid.ai/landing?gad_source=1&gad_campaignid=21291684933&gbraid=0AAAAAqtlhyygZk0tub9XTAFteyEFfGR9M",
+        "title": "Mermaid Chart",
+        "description": "Mermaid Chart makes diagramming simple: create and edit flowcharts, sequence diagrams, and more online. Collaborate in real time and save hours.",
+        "image": "https://www.mermaid.ai/img/og-image.png",
+        "siteName": "www.mermaid.ai",
+        "favicon": "app://obsidian.md/img/favicon.ico"
+      },
+      "fetchedAt": 1770571696968
+    }
+  }
+}
